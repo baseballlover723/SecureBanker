@@ -5,7 +5,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JPanel;
 
 /**
- * TODO Put here a description of what this class does.
+ * this is GUI
  *
  * @author rosspa. Created Jul 16, 2014.
  */
@@ -23,22 +23,9 @@ public class Gui {
 		frame.setLocationRelativeTo(null);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		currentPanel = null;
-		this.replaceJPanel(this.loginPanel);
-		// this.add(this.loginPanel);
-		// this.setContentSize(this.loginPanel.getPreferredSize());
-		// this.setMinimumSize(this.getSize());
+		replaceJPanel(this.loginPanel);
 		frame.setVisible(true);
 
-		// try {
-		// for (int k = 1; k < 4; k++) {
-		// System.out.println(k);
-		// Thread.sleep(1000);
-		// }
-		// } catch (InterruptedException exception) {
-		// // TODO Auto-generated catch-block stub.
-		// exception.printStackTrace();
-		// }
-		// this.replaceJPanel(this.loginPanel);
 
 	}
 

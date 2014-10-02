@@ -13,7 +13,7 @@ public class Account {
 	private long accountId;
 
 	
-
+	
 	/**
 	 * 
 	 * Only used by the server

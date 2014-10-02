@@ -21,7 +21,7 @@ public class LoginActionListener implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		System.out.println("User: " + this.loginPanel.getUserText());
-		System.out.println("Pass: " + Arrays.toString(this.loginPanel.getPassChars()));
+//		System.out.println("Pass: " + Arrays.toString(this.loginPanel.getPassChars()));
 		try {
 			System.out.println("PassHash: " + SHA1.hash(this.loginPanel.getPassChars()));
 		} catch (NoSuchAlgorithmException | UnsupportedEncodingException exception) {
